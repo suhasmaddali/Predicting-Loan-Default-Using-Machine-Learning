@@ -20,6 +20,5 @@ With the use of different machine learning models, we are going to be using thos
 
 When we are considering the different machine learning models, we are going be performing different set of tools and we see that the more we are learning the things that we are going to be taking along the way that we are sure that we are sure that we are going to be learning the things and we are going to be performing different set of tools that we are going to be using in the long term. 
 
-What are some things that we are going to be using in the long term? We are using the different set of tools that we are going to be getting in the long term that we are going to be setting in the long term. We are sure that the more we are going to be using in the long term, we are going to be taking those values and we are sure that we are sure that we are going to be using and we are going to be taking the things that would help the machine learning models to perform well. 
 
 
