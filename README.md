@@ -15,3 +15,11 @@ When we are dealing with the machine learning data, we are going to be taking th
 It would be really good if based on a given set of features, one is able to predict whether a customer would default a loan or not. This could be addressed with machine learning.
 
 We are learning the different machine learning models and we are going to be performing different analysis that are used for different machine learning models respectively. What are some of the different use cases of different machine learning models. We are sure that we are going to be learning in the long term. We are sure that we are going to be getting in the long term. We are going to be performing different machine learning analysis for the use of different machien learning tools for the long term. What are some things that we are sure that we are going to learnin the things that we are going to be taking in the long term.
+
+With the use of different machine learning models, we are going to be using those values and we are learning the things that would have the best values for the most useful things that are important for the use of differnet set of tools that would improve the overall performance of the machien learning models. We are going to be taking those values nad we see that the more we aer learning the things that we are sure that we are going to be taking the things that we are going to be using in the long term. What are some thing
+
+When we are considering the different machine learning models, we are going be performing different set of tools and we see that the more we are learning the things that we are going to be taking along the way that we are sure that we are sure that we are going to be learning the things and we are going to be performing different set of tools that we are going to be using in the long term. 
+
+What are some things that we are going to be using in the long term? We are using the different set of tools that we are going to be getting in the long term that we are going to be setting in the long term. We are sure that the more we are going to be using in the long term, we are going to be taking those values and we are sure that we are sure that we are going to be using and we are going to be taking the things that would help the machine learning models to perform well. 
+
+
