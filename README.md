@@ -4,6 +4,6 @@ Lending a loan to a person could be crucial to banks for them to operate and mai
 
 ![](Payday-Loan.gif)
 
-Companies could use machine learning to understand some of the important features and insights and also, get predictions so that they could determine whether they have to give loan to a person or not. If we are going to be taking those values, we are going to be using the different machine learning models for the predictions for different set of values respectively. We are going to be tkaing those values and we are going to use those values and understand the machine learning models. 
+Companies could use machine learning to understand some of the important features and insights and also, get predictions so that they could determine whether they have to give loan to a person or not. If we are going to be taking those values, we are going to be using the different machine learning models for the predictions for different set of values respectively. We are going to be taking those values and we are going to use those values and understand the machine learning models. 
 
 It would be really good if based on a given set of features, one is able to predict whether a customer would default a loan or not. This could be addressed with machine learning.
