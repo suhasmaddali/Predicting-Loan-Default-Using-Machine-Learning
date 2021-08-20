@@ -7,7 +7,5 @@ With the use of machine learning and deep learning, it is possible to understand
 
 It would be really good if based on a given set of features, one is able to predict whether a customer would default a loan or not. This could be addressed with machine learning.
 
-When we are considering the different machine learning models, we are going be performing different set of tools and we see that the more we are learning the things that we are going to be taking along the way that we are sure that we are sure that we are going to be learning the things and we are going to be performing different set of tools that we are going to be using in the long term. 
-
 
 
