@@ -53,7 +53,7 @@ This is for the Washington Bike Demand Prediction repository. But the same steps
 
 &emsp;&emsp; <img src = "https://github.com/suhasmaddali/Images/blob/main/Screenshot%20(12).png" width = "600" />
 
-10. You might now run the .ipynb files present in the repository to open the notebook and the python code present in it. 
+11. You might now run the .ipynb files present in the repository to open the notebook and the python code present in it. 
 
 &emsp;&emsp; <img src = "https://github.com/suhasmaddali/Images/blob/main/Screenshot%20(13).png" width = "600" />
 
