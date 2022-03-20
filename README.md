@@ -14,6 +14,8 @@ __Companies__ could use machine learning to understand some of the important fea
 
 ## Exploratory Data Analysis (EDA)
 
+We should be performing exploratory data analysis (EDA) to understand and use various features for our prediction. Below are some key insights that were generated as a result of exploratory data analysis (EDA). 
+
 ## 👉 Directions to download the repository and run the notebook 
 
 This is for the Washington Bike Demand Prediction repository. But the same steps could be followed for this repository. 
