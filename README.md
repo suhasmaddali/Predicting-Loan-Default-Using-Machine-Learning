@@ -12,6 +12,8 @@ Lending a loan to a person could be crucial to banks for them to __operate__ and
 
 __Companies__ could use machine learning to understand some of the important features and insights and also, get predictions so that they could determine whether they have to give loan to a person or not. It would be really good if based on a given set of features, one is able to predict whether a customer would default a loan or not. This could be addressed with machine learning.
 
+## Exploratory Data Analysis (EDA)
+
 ## 👉 Directions to download the repository and run the notebook 
 
 This is for the Washington Bike Demand Prediction repository. But the same steps could be followed for this repository. 
