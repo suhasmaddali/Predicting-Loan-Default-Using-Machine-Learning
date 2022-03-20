@@ -16,8 +16,8 @@ __Companies__ could use machine learning to understand some of the important fea
 
 We should be performing exploratory data analysis (EDA) to understand and use various features for our prediction. Below are some key insights that were generated as a result of exploratory data analysis (EDA). 
 
-* There are a large number of people in our data that do not have a partner. 
-* There is a large portion of our data that contains missing values.
+* There are a large number of people in our data that do not have a __partner__. 
+* There is a __large portion__ of our data that contains missing values.
 * Based on the salary amounts, it could be seen that a large portion of people have salaries ranging from about __$1,00,000 - $1,40,000__ respectively.  
 
 ## 👉 Directions to download the repository and run the notebook 
