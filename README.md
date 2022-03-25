@@ -24,6 +24,8 @@ We should be performing exploratory data analysis (EDA) to understand and use va
 
 ## Sampling Methods
 
+Since we are dealing with the data that is not balanced, it is important to performing the balancing especially for the minority class which in our case is possibility that a person might default on a loan. We use various sampling techniques such as SMOTE and Random sampling to get the best outputs from the machine learning models. 
+
 
 ## 👉 Directions to download the repository and run the notebook 
 
