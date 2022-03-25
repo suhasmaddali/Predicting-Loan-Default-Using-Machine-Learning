@@ -46,7 +46,7 @@ The output variable in our case is discrete. Therefore, metrics that compute the
 
 ## Machine Learning Models
 
-We know that there are millions of records in our data. Hence, it is important to use the most appropriate machine learning model that deal with high dimensional data well. Below are the machine learning models used for predicting whether a person would default on a loan or not. 
+We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deal with __high dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
 
 * __Logistic Regression__
 * __Naive Bayes__
