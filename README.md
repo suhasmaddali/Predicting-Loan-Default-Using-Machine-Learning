@@ -33,6 +33,13 @@ Since we are dealing with the data that is not balanced, it is important to perf
 
 ## Machine Learning Models
 
+Since we are dealing with a large data contains millions of records, it is important to use the most appropriate machine learning model that deal with high dimensional data well. Below are the machine learning models used for predicting whether a person would default on a loan or not. 
+
+* Logistic Regression
+* Naive Bayes
+* Decision Tree Classifier
+* Random Forests
+* Deep Neural Networks
 
 
 
