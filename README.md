@@ -18,6 +18,7 @@ We should be performing exploratory data analysis (EDA) to understand and use va
 
 * There are a large number of people in our data that do not have a __partner__. 
 * There is a __large portion__ of our data that contains missing values.
+* We find that the number of people who defaulted on a loan are significantly lower than the people who did not default on a loan. Therefore, class balancing should be done before giving the data to the ML models for prediction. 
 * Based on the salary amounts, it could be seen that a large portion of people have salaries ranging from about __$1,00,000 - $1,40,000__. There are also few people who make about __$8,00,000__ but they are outliers in the data. 
 * It could also be seen that a large number of people have taken a loan or credit of about __$2,50,000__. There are very few people (outliers) who have taken a loan of about __$20,00,000__. 
 * We have data that contains a lot of __missing values__. Therefore, we can either take into account the __imputation methods__ or __remove__ the features that contain more than __80 percent__ as missing values.  
