@@ -31,6 +31,8 @@ Since we are dealing with the data that is not balanced, it is important to perf
 * __SMOTE__
 * __NearMiss__
 
+## Machine Learning Models
+
 
 
 
