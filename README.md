@@ -36,11 +36,13 @@ Since we are dealing with the data that is not balanced, it is important to perf
 
 The output variable in our case is discrete. Therefore, metrics that compute the outcomes for discrete variables should be taken into consideration and the problem should be mapped under classification. Below are the metrics for the classification problem of predicting whether a person would default on a loan or not. 
 
-* Accuracy
-* Precision
-* Recall
-* F1 Score
-* Area Under Curve (AUC)
+* __Accuracy__
+* __Precision__
+* __Recall__
+* __F1 Score__
+* __Area Under Curve (AUC)__
+* __Classification Report__
+* __Confusion Matrix__
 
 ## Machine Learning Models
 
