@@ -32,6 +32,16 @@ Since we are dealing with the data that is not balanced, it is important to perf
 * __SMOTE__
 * __NearMiss__
 
+## Metrics
+
+The output variable in our case is discrete. Therefore, metrics that compute the outcomes for discrete variables should be taken into consideration and the problem should be mapped under classification. Below are the metrics for the classification problem of predicting whether a person would default on a loan or not. 
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* Area Under Curve (AUC)
+
 ## Machine Learning Models
 
 We know that there are millions of records in our data. Hence, it is important to use the most appropriate machine learning model that deal with high dimensional data well. Below are the machine learning models used for predicting whether a person would default on a loan or not. 
