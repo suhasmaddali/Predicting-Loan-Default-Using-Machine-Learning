@@ -36,7 +36,7 @@ Since we are dealing with the data that is not balanced, it is important to perf
 
 The output variable in our case is discrete. Therefore, metrics that compute the outcomes for discrete variables should be taken into consideration and the problem should be mapped under classification. Below are the metrics for the classification problem of predicting whether a person would default on a loan or not. 
 
-* __Accuracy__ (May not be the most ideal because of output class imbalance)
+* [__Accuracy__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html) (May not be the most ideal because of output class imbalance)
 * __Precision__
 * __Recall__
 * __F1 Score__
