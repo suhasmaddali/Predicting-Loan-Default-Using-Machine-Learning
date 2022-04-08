@@ -29,7 +29,7 @@ Since we are dealing with the data that is not balanced, it is important to perf
 
 * __RandomOverSampler__
 * __TomekLinks__
-* __SMOTE__
+* [__SMOTE__](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html)
 * __NearMiss__
 
 ## Metrics
