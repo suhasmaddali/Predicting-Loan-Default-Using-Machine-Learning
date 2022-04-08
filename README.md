@@ -41,7 +41,7 @@ The output variable in our case is discrete. Therefore, metrics that compute the
 * [__Recall__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html)
 * [__F1 Score__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
 * [__Area Under Curve (AUC)__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.auc.html)
-* __Classification Report__
+* [__Classification Report__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html)
 * __Confusion Matrix__
 
 ## Machine Learning Models
