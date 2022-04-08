@@ -30,7 +30,7 @@ Since we are dealing with the data that is not balanced, it is important to perf
 * __RandomOverSampler__
 * __TomekLinks__
 * [__SMOTE__](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html)
-* __NearMiss__
+* [__NearMiss__](https://imbalanced-learn.org/dev/references/generated/imblearn.under_sampling.NearMiss.html)
 
 ## Metrics
 
