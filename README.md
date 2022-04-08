@@ -40,7 +40,7 @@ The output variable in our case is discrete. Therefore, metrics that compute the
 * [__Precision__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html)
 * [__Recall__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html)
 * [__F1 Score__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html)
-* __Area Under Curve (AUC)__
+* [__Area Under Curve (AUC)__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.auc.html)
 * __Classification Report__
 * __Confusion Matrix__
 
