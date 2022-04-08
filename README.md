@@ -50,7 +50,7 @@ We know that there are __millions of records__ in our data. Hence, it is importa
 
 * [__Logistic Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 * [__Naive Bayes__](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html)
-* __Decision Tree Classifier__
+* [__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 * __Random Forests__
 * __Deep Neural Networks__
 
