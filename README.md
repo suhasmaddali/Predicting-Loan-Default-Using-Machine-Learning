@@ -50,7 +50,7 @@ We know that there are __millions of records__ in our data. Hence, it is importa
 
 | __Machine Learning Models__| __Accuracy__| __Precision__|__Recall__|__F1-Score__| __AUC Score__|
 | :-:| :-:| :-:| :-:| :-:| :-:|
-| [1. Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)| 64.5%| 0.64| 10| 15| 0.69|
+| [1. Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)| 64.5%| 0.64| 0.63| 15| 0.69|
 | [2. Naive Bayes Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)| 50.0%| 364527989| 10| 15| 0.64|
 | [3. Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)| 81.0%| 0.76| 0.84| 0.80| 0.81|
 | [4. Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)| 86.0%| 0.74| 0.98| 0.84| 0.95|
