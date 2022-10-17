@@ -53,7 +53,7 @@ We know that there are __millions of records__ in our data. Hence, it is importa
 | [1. Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)| 64.5%| 0.64| 0.63| 0.63| 0.69|
 | [2. Naive Bayes Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)| 50.0%| 0.50| __0.99__| 0.70| 0.64|
 | [3. Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)| 81.0%| __0.76__| 0.84| 0.80| 0.81|
-| [4. Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)| __86.0%__| 0.74| 0.98| 0.84| 0.95|
+| [4. Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)| __86.0%__| 0.74| 0.98| __0.84__| __0.95__|
 | [5. Deep Neural Networks](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html)| 73.0%| 0.66| 0.77| 0.71| 0.76|
 
 ## 👉 Directions to download the repository and run the notebook 
