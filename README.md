@@ -54,7 +54,7 @@ We know that there are __millions of records__ in our data. Hence, it is importa
 * [__Random Forests__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 * [__Deep Neural Networks__](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html)
 
-| __Machine Learning Models__| __Mean Absolute Error__| __Mean Squared Error__|
+| __Machine Learning Models__| __Accuracy__| __Precision__|__Recall__|__F1-Score__|
 | :-:| :-:| :-:|
 | [1. Linear Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)| 6737| 364527989|
 | [2. Support Vector Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html)|	22525|	2653742304|
