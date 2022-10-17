@@ -48,12 +48,6 @@ The output variable in our case is __discrete__. Therefore, metrics that compute
 
 We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deal with __high dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
 
-* [__Logistic Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
-* [__Naive Bayes__](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html)
-* [__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
-* [__Random Forests__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
-* [__Deep Neural Networks__](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html)
-
 | __Machine Learning Models__| __Accuracy__| __Precision__|__Recall__|__F1-Score__| __AUC Score__|
 | :-:| :-:| :-:| :-:| :-:| :-:|
 | [1. Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)| 64.5%| 364527989| 10| 15| 0.69|
