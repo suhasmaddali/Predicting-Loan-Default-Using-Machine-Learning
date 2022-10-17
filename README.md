@@ -60,8 +60,7 @@ We know that there are __millions of records__ in our data. Hence, it is importa
 | [2. Naive Bayes Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)| 64.5%| 364527989| 10| 15| 0.64|
 | [3. Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)| 52.0%| 0.13| 0.60| 0.21| 0.52|
 | [4. Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)| 50.0%| 0.01| 0.87| 0.50| 0.67|
-| [1. Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)| 64.5%| 364527989| 10| 15| 0.69|
-| [1. Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)| 64.5%| 364527989| 10| 15| 0.69|
+| [5. Deep Neural Networks](https://machinelearningmastery.com/tensorflow-tutorial-deep-learning-with-tf-keras/)| 64.5%| 364527989| 10| 15| 0.69|
 
 
 | [2. Support Vector Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVR.html)|	22525|	2653742304|
