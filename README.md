@@ -4,13 +4,13 @@
 
 ## Introduction 
 
-Lending a loan to a person could be crucial to banks for them to __operate__ and __maintain__ demand. Taking a look at different banks, we see that the amount of loan that they give to different customers vary where they consider a few factors that are important for them to make a decision to give a loan or not respectively. In addition to this, the total amount of loan that they lend to a person also depends on these factors. However, there is sometimes a possibility that the __loan__ might be given to a person who might not be able to return it to the bank or __vice-versa__. It becomes important for banks to understand the behavior of the __customer__ before they can take action to lend money to people for different purposes. 
+Lending a loan to a person could be crucial to banks for them to __operate__ and __maintain__ demand. Taking a look at different banks, we see that the amount of loan that they give to different customers varies when they consider a few factors that are important for them to decide to give a loan or not respectively. In addition to this, the total amount of loan that they lend to a person also depends on these factors. However, there is sometimes a possibility that the __loan__ might be given to a person who might not be able to return it to the bank or __vice-versa__. It becomes important for banks to understand the behavior of the __customer__ before they can take action to lend money to people for different purposes. 
 
 ![](Payday-Loan.gif)
 
 ## Machine Learning Analysis 
 
-__Companies__ could use machine learning to understand some of the important features and insights and also, get predictions so that they could determine whether they have to give loan to a person or not. It would be really good if based on a given set of features, one is able to predict whether a customer would __default a loan or not__. This could be addressed with machine learning.
+__Companies__ could use machine learning to understand some of the important features and insights and also, get predictions so that they could determine whether they have to give a loan to a person or not. It would be really good if based on a given set of features, one is able to predict whether a customer would __default on a loan or not__. This could be addressed with machine learning.
 
 ## Exploratory Data Analysis (EDA)
 
@@ -18,14 +18,14 @@ We should be performing exploratory data analysis (EDA) to understand and use va
 
 * There are a large number of people in our data that do not have a __partner__. 
 * There is a __large portion__ of our data that contains missing values.
-* We find that the __number of people__ who defaulted on a loan are __significantly__ lower than the people who did not default on a loan. Therefore, __class balancing__ should be done before giving the data to the __ML models__ for prediction. 
-* Based on the salary amounts, it could be seen that a large portion of people have salaries ranging from about __$1,00,000 - $1,40,000__. There are also few people who make about __$8,00,000__ but they are outliers in the data. 
+* We find that the __number of people__ who defaulted on a loan are __significantly__ lower than the number of people who did not default on a loan. Therefore, __class balancing__ should be done before giving the data to the __ML models__ for prediction. 
+* Based on the salary amounts, it could be seen that a large portion of people has salaries ranging from about __$1,00,000 - $1,40,000__. There are also a few people who make about __$8,00,000__ but they are outliers in the data. 
 * It could also be seen that a large number of people have taken a loan or credit of about __$2,50,000__. There are very few people (outliers) who have taken a loan of about __$20,00,000__. 
 * We have data that contains a lot of __missing values__. Therefore, we can either take into account the __imputation methods__ or __remove__ the features that contain more than __80 percent__ as missing values.  
 
 ## Sampling Methods
 
-Since we are dealing with the data that is not balanced, it is important to performing the balancing especially for the minority class which in our case is possibility that a person might default on a loan. We use various sampling techniques such as __SMOTE__ and __Random sampling__ to get the best outputs from the machine learning models. 
+Since we are dealing with data that is not balanced, it is important to perform the balancing, especially for the minority class which in our case is the possibility that a person might default on a loan. We use various sampling techniques such as __SMOTE__ and __Random sampling__ to get the best outputs from the machine learning models. 
 
 * [__RandomOverSampler__](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.RandomOverSampler.html)
 * [__TomekLinks__](https://imbalanced-learn.org/stable/references/generated/imblearn.under_sampling.TomekLinks.html)
@@ -46,7 +46,7 @@ The output variable in our case is __discrete__. Therefore, metrics that compute
 
 ## Machine Learning Models
 
-We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deal with __high dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
+We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deals with __high-dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
 
 | __Machine Learning Models__| __Accuracy__| __Precision__|__Recall__|__F1-Score__| __AUC Score__|
 | :-:| :-:| :-:| :-:| :-:| :-:|
