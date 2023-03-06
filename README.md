@@ -64,6 +64,7 @@ Missingno plots give a good repsentation of the missing values present in the da
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Missing%20values%20plot.png"/>
 
+These are the features with the top missing values. The number on the y-axis indicate the percentage number of the missing values. 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Top%20missing%20values.png"/>
 
 ## Machine Learning Models
