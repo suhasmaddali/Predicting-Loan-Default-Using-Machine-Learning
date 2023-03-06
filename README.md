@@ -52,6 +52,8 @@ After taking a look at a few rows and columns in the dataset, there are features
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Input%20Data.png"/>
 
+A large portion of the loan applicants are unaccompanied meaning that they are not married. There are a few child applicants along with spouse categories. There are a few other types of categories that are yet to be determined according to the dataset. 
+
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Family%20Situation%20Plot.png"/>
 
 ## Machine Learning Models
