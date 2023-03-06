@@ -48,6 +48,8 @@ The output variable in our case is __discrete__. Therefore, metrics that compute
 
 In this section, we would be primarily focusing on the visualizations from the analysis and the ML model prediction matrices to determine the best model for deployment. 
 
+<img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Input%20Data.png"/>
+
 ## Machine Learning Models
 
 We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deals with __high-dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
