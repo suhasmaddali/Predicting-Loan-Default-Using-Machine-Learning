@@ -56,6 +56,8 @@ A large portion of the loan applicants are unaccompanied meaning that they are n
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Family%20Situation%20Plot.png"/>
 
+The plot below shows the total number of applicants and whether they have defaulted on a loan or not. A large portion of the applicants were able to pay back their loans in a timely manner. There are still a few set of applicants who failed to pay the loan back. This resulted in a loss to financial institutes as the amount was not paid back. 
+
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Output%20Variable%20Plot.png"/>
 
 ## Machine Learning Models
