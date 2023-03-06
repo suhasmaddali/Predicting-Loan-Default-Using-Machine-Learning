@@ -48,6 +48,8 @@ The output variable in our case is __discrete__. Therefore, metrics that compute
 
 In this section, we would be primarily focusing on the visualizations from the analysis and the ML model prediction matrices to determine the best model for deployment. 
 
+After taking a look at a few rows and columns in the dataset, there are features such as whether the loan applicant has a car, gender, type of loan and most importantly whether they have defaulted on a loan or not. 
+
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Input%20Data.png"/>
 
 ## Machine Learning Models
