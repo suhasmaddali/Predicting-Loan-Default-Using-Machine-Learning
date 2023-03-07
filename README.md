@@ -81,6 +81,7 @@ A large portion of applicants also do not own a car. It can be interesting to se
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Own%20car%20plot.png"/>
 
+As seen from the distribution of income plot, a large number of people make incomes as indicated by the spike presented by the green curve. However, there are also loan applicants who make a large amount of money but they are relatively few in number. This is indicated by the spread in the curve. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Income%20distribution.png"/>
 
