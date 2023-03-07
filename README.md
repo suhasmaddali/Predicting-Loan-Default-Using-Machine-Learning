@@ -97,6 +97,12 @@ After performing imputation, notice how the white strips are removed. This indic
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/missing%20values%20imputed.png"/>
 
+### Model Performance
+
+In these set of visualizations, let us focus on the model performance on unseen data points. Since this is a binary classification task, metrics such as precision, recall, f1-score and accuracy can be taken into consideration. Various plots that indicate the performance of the model can be plotted such as confusion matrix plot and AUC curves. Let us look at how the models are performing in the test data. 
+
+
+
 ## Machine Learning Models
 
 We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deals with __high-dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
