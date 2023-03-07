@@ -89,6 +89,9 @@ Plotting missing values for a few set of features, there tends to be a lot of mi
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/missingno%20plot%201.png"/>
 
+
+<img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/numerical%20missing%20values.png"/>
+
 ## Machine Learning Models
 
 We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deals with __high-dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
