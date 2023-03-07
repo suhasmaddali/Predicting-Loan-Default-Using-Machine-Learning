@@ -93,6 +93,10 @@ We also check for numerical missing values to find them. By looking at the plot 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/numerical%20missing%20values.png"/>
 
+After performing imputation, notice how the white strips are removed. This indicates that the missing values are imputed so that they could be fed to ML models for predictions in the later stages. 
+
+<img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/missing%20values%20imputed.png"/>
+
 ## Machine Learning Models
 
 We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deals with __high-dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
