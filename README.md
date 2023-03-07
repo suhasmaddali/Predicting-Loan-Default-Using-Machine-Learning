@@ -95,6 +95,7 @@ We also check for numerical missing values to find them. By looking at the plot 
 
 After performing imputation, notice how the white strips are removed. This indicates that the missing values are imputed so that they could be fed to ML models for predictions in the later stages. 
 
+
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/missing%20values%20imputed.png"/>
 
 ### Model Performance
