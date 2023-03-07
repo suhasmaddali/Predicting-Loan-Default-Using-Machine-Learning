@@ -89,6 +89,7 @@ Plotting missing values for a few set of features, there tends to be a lot of mi
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/missingno%20plot%201.png"/>
 
+We also check for numerical missing values to find them. By looking at the plot below, it clearly shows that there are only a few missing values in the dataset. Since they are numerical, methods such as mean imputation, median imputation and mode imputation could be used in this process of filling the missing values.  
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/numerical%20missing%20values.png"/>
 
