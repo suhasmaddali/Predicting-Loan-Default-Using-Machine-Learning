@@ -73,6 +73,8 @@ Therefore, we have more information present in the dataset about 'Cash Loan' typ
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Type%20of%20loans%20plot.png"/>
 
+Based on the results from the plots, a lot of information is present about female applicants as shown in the plot. There are a few categories that are unknown. These categories can be removed as they do not aid in the model prediction about the chances of default on a loan. 
+
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Gender%20count.png"/>
 
 ## Machine Learning Models
