@@ -77,6 +77,8 @@ Based on the results from the plots, a lot of information is present about femal
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Gender%20count.png"/>
 
+A large portion of applicants also do not own a car. It can be interesting to see how much of an impact would this make in predicting whether an applicant is going to default on a loan or not. 
+
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Own%20car%20plot.png"/>
 
 ## Machine Learning Models
