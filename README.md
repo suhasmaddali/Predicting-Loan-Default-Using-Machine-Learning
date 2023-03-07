@@ -85,6 +85,10 @@ As seen from the distribution of income plot, a large number of people make inco
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Income%20distribution.png"/>
 
+Plotting missing values for a few set of features, there tends to be a lot of missing values for features such as 'TOTALAREA_MODEL' and 'EMERGENCYSTATE_MODE' respectively. Steps such as imputation or removal of those features can be performed to enhance the performance for AI models. We will also look at other features that contain missing values based on the plots generated. 
+
+<img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/missingno%20plot%201.png"/>
+
 ## Machine Learning Models
 
 We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deals with __high-dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
