@@ -101,7 +101,7 @@ After performing imputation, notice how the white strips are removed. This indic
 
 In these set of visualizations, let us focus on the model performance on unseen data points. Since this is a binary classification task, metrics such as precision, recall, f1-score and accuracy can be taken into consideration. Various plots that indicate the performance of the model can be plotted such as confusion matrix plot and AUC curves. Let us look at how the models are performing in the test data. 
 
-[__1. Logistic Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+[__Logistic Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Logistic%20regression%20performance.png"/>
 
