@@ -68,6 +68,9 @@ These are the features with the top missing values. The number on the y-axis ind
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Top%20missing%20values.png"/>
 
+Looking at the type of loans taken by the applicants, a large portion in the dataset contains information about 'Cash Loans' followed by 'Revolving Loans'. 
+Therefore, we have more information present in the dataset about 'Cash Loan' types which can be used to determine the chances of default on a loan. 
+
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Type%20of%20loans%20plot.png"/>
 
 ## Machine Learning Models
