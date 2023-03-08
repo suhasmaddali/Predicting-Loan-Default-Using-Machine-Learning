@@ -117,7 +117,7 @@ The AUC curves also showcase that the model needs improvement. The AUC of the mo
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/NB%20AUC%20Curves.png"/>
 
-[__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+[__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) - As shown from the plot below, the performance of decision tree classifier is better than logistic regression and naive bayes. However, there are still possibilities of improvement of model performance even further. We can explore other list of models as well. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20Performance.png"/>
 
