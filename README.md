@@ -109,7 +109,7 @@ AUC curves give a good idea about the performance of ML models. After using logi
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/LR%20AUC%20Curves.png"/>
 
-[__Naive Bayes Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)
+[__Naive Bayes Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html) - This classifier works well when there is textual information. Based on the results generated in the confusion matrix plot below, it can be seen that there are large number of false-negatives. This can have an impact in the business if not addressed. False-positives mean that the model predicted a defaulter as a non-defaulter. As a result, banks might have a higher chance to lose income especially if money is lended to defaulters. Therefore, we can go ahead and look for alternate models. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/NB%20Performance.png"/>
 
