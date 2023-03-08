@@ -101,7 +101,9 @@ After performing imputation, notice how the white strips are removed. This indic
 
 In these set of visualizations, let us focus on the model performance on unseen data points. Since this is a binary classification task, metrics such as precision, recall, f1-score and accuracy can be taken into consideration. Various plots that indicate the performance of the model can be plotted such as confusion matrix plot and AUC curves. Let us look at how the models are performing in the test data. 
 
-[__Logistic Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) - This was the first model used to make prediction about the chances of a person defaulting on a loan. Overall, it does a good job in classifying defaulters. However, there are many false-positives and false-negatives by this model. This could be mainly due to high bias or lower complexity of the model. Note that upsampling was performed to ensure that there are equal number of output classes of default and non-default applicants. 
+__Note:__ Upsampling was performed using random oversampler initially. SMOTE oversampling method was used later to test model performance.
+
+[__Logistic Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) - This was the first model used to make prediction about the chances of a person defaulting on a loan. Overall, it does a good job in classifying defaulters. However, there are many false-positives and false-negatives by this model. This could be mainly due to high bias or lower complexity of the model. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Logistic%20regression%20performance.png"/>
 
