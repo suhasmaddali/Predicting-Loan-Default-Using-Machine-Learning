@@ -105,6 +105,8 @@ In these set of visualizations, let us focus on the model performance on unseen 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Logistic%20regression%20performance.png"/>
 
+AUC curves give a good idea about the performance of ML models. After using logistic regression, it is seen that the AUC is about 0.54 respectively. This means that there is a lot more room for improvement in performance. The higher is the area under the curve, the better is the performance of ML models. 
+
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/LR%20AUC%20Curves.png"/>
 
 ## Machine Learning Models
