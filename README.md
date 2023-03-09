@@ -135,6 +135,10 @@ After looking at the AUC curves, it can be seen that better models and over samp
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/RF%20AUC%20Curves.png"/>
 
+#### SMOTE Oversampling 
+
+[__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20SMOTE%20Curve.png"/>
 
 
