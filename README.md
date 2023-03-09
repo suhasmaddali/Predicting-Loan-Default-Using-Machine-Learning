@@ -149,6 +149,10 @@ Focusing our attention on the AUC curves, there is a significant improvement in 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/RF%20SMOTE%20Performance.png"/>
 
+The performance of random forest classifier is exceptional as it is able to give an AUC score of about 0.95 respectively. This is depicted in the plot below. Therefore, we can deploy this model in real-time as it shows a lot of promise in predicting the chances of applicants to default on a loan. 
+
+<img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/RF%20SMOTE%20AUC%20Curves.png"/>
+
 ## Machine Learning Models
 
 We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deals with __high-dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
