@@ -127,7 +127,7 @@ Based on the results generated from the AUC curve, there is an improvement in th
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20AUC%20Curves.png"/>
 
-[__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+[__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) - They are a group of decision trees that ensure that there is less variance during training. In our case, however, the model is not performing well on its positive predictions. This can be due to sampling approach chosen for training the models. In the later parts, we can focus our attention on other over sampling methods. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/RF%20Performance.png"/>
 
