@@ -145,7 +145,7 @@ Focusing our attention on the AUC curves, there is a significant improvement in 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20SMOTE%20AUC%20Curves.png"/>
 
-[__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+[__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) - This random forest model was trained on SMOTE oversampled data. There is a good improvement in the performance of the models. It is able to accurately predict the chances of default on a loan. There are only a few false positives. There are some false negatives but they are less as compared to a list of all the models used previously. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/RF%20SMOTE%20Performance.png"/>
 
