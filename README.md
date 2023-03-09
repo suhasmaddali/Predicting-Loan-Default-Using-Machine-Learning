@@ -48,7 +48,7 @@ The output variable in our case is __discrete__. Therefore, metrics that compute
 
 In this section, we would be primarily focusing on the visualizations from the analysis and the ML model prediction matrices to determine the best model for deployment. 
 
-After taking a look at a few rows and columns in the dataset, there are features such as whether the loan applicant has a car, gender, type of loan and most importantly whether they have defaulted on a loan or not. 
+After taking a look at a few rows and columns in the dataset, there are features such as whether the loan applicant has a car, gender, type of loan, and most importantly whether they have defaulted on a loan or not. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Input%20Data.png"/>
 
@@ -60,20 +60,20 @@ The plot below shows the total number of applicants and whether they have defaul
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Output%20Variable%20Plot.png"/>
 
-Missingno plots give a good repsentation of the missing values present in the dataset. The white strips in the plot indicate the missing values (depending on the colormap). After taking a look at this plot, there are a large number of missing values present in the data. Therefore, various imputation methods can be used. In addition, features that do not give a lot of predictive information can be removed. 
+Missingno plots give a good representation of the missing values present in the dataset. The white strips in the plot indicate the missing values (depending on the colormap). After taking a look at this plot, there are a large number of missing values present in the data. Therefore, various imputation methods can be used. In addition, features that do not give a lot of predictive information can be removed. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Missing%20values%20plot.png"/>
 
-These are the features with the top missing values. The number on the y-axis indicate the percentage number of the missing values. 
+These are the features with the top missing values. The number on the y-axis indicates the percentage number of the missing values. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Top%20missing%20values.png"/>
 
-Looking at the type of loans taken by the applicants, a large portion in the dataset contains information about 'Cash Loans' followed by 'Revolving Loans'. 
+Looking at the type of loans taken by the applicants, a large portion of the dataset contains information about 'Cash Loans' followed by 'Revolving Loans'. 
 Therefore, we have more information present in the dataset about 'Cash Loan' types which can be used to determine the chances of default on a loan. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Type%20of%20loans%20plot.png"/>
 
-Based on the results from the plots, a lot of information is present about female applicants as shown in the plot. There are a few categories that are unknown. These categories can be removed as they do not aid in the model prediction about the chances of default on a loan. 
+Based on the results from the plots, a lot of information is present about female applicants shown in the plot. There are a few categories that are unknown. These categories can be removed as they do not aid in the model prediction about the chances of default on a loan. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Gender%20count.png"/>
 
@@ -85,11 +85,11 @@ As seen from the distribution of income plot, a large number of people make inco
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Income%20distribution.png"/>
 
-Plotting missing values for a few set of features, there tends to be a lot of missing values for features such as 'TOTALAREA_MODE' and 'EMERGENCYSTATE_MODE' respectively. Steps such as imputation or removal of those features can be performed to enhance the performance for AI models. We will also look at other features that contain missing values based on the plots generated. 
+Plotting missing values for a few sets of features, there tends to be a lot of missing values for features such as 'TOTALAREA_MODE' and 'EMERGENCYSTATE_MODE' respectively. Steps such as imputation or removal of those features can be performed to enhance the performance of AI models. We will also look at other features that contain missing values based on the plots generated. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/missingno%20plot%201.png"/>
 
-We also check for numerical missing values to find them. By looking at the plot below, it clearly shows that there are only a few missing values in the dataset. Since they are numerical, methods such as mean imputation, median imputation and mode imputation could be used in this process of filling the missing values.  
+We also check for numerical missing values to find them. By looking at the plot below clearly shows that there are only a few missing values in the dataset. Since they are numerical, methods such as mean imputation, median imputation, and mode imputation could be used in this process of filling in the missing values.  
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/numerical%20missing%20values.png"/>
 
@@ -100,17 +100,17 @@ After performing imputation, notice how the white strips are removed. This indic
 ### Model Performance
 
 #### Random Oversampling 
-In these set of visualizations, let us focus on the model performance on unseen data points. Since this is a binary classification task, metrics such as precision, recall, f1-score and accuracy can be taken into consideration. Various plots that indicate the performance of the model can be plotted such as confusion matrix plot and AUC curves. Let us look at how the models are performing in the test data. 
+In this set of visualizations, let us focus on the model performance on unseen data points. Since this is a binary classification task, metrics such as precision, recall, f1-score, and accuracy can be taken into consideration. Various plots that indicate the performance of the model can be plotted such as confusion matrix plots and AUC curves. Let us look at how the models are performing in the test data. 
 
-[__Logistic Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) - This was the first model used to make prediction about the chances of a person defaulting on a loan. Overall, it does a good job in classifying defaulters. However, there are many false-positives and false-negatives by this model. This could be mainly due to high bias or lower complexity of the model. 
+[__Logistic Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) - This was the first model used to make a prediction about the chances of a person defaulting on a loan. Overall, it does a good job of classifying defaulters. However, there are many false positives and false negatives in this model. This could be mainly due to high bias or lower complexity of the model. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Logistic%20regression%20performance.png"/>
 
-AUC curves give a good idea about the performance of ML models. After using logistic regression, it is seen that the AUC is about 0.54 respectively. This means that there is a lot more room for improvement in performance. The higher is the area under the curve, the better is the performance of ML models. 
+AUC curves give a good idea of the performance of ML models. After using logistic regression, it is seen that the AUC is about 0.54 respectively. This means that there is a lot more room for improvement in performance. The higher the area under the curve, the better the performance of ML models. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/LR%20AUC%20Curves.png"/>
 
-[__Naive Bayes Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html) - This classifier works well when there is textual information. Based on the results generated in the confusion matrix plot below, it can be seen that there are large number of false-negatives. This can have an impact in the business if not addressed. False-negatives mean that the model predicted a defaulter as a non-defaulter. As a result, banks might have a higher chance to lose income especially if money is lended to defaulters. Therefore, we can go ahead and look for alternate models. 
+[__Naive Bayes Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html) - This classifier works well when there is textual information. Based on the results generated in the confusion matrix plot below, it can be seen that there is a large number of false negatives. This can have an impact on the business if not addressed. False negatives mean that the model predicted a defaulter as a non-defaulter. As a result, banks might have a higher chance to lose income especially if money is lent to defaulters. Therefore, we can go ahead and look for alternate models. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/NB%20Performance.png"/>
 
@@ -118,7 +118,7 @@ The AUC curves also showcase that the model needs improvement. The AUC of the mo
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/NB%20AUC%20Curves.png"/>
 
-[__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) - As shown from the plot below, the performance of decision tree classifier is better than logistic regression and naive bayes. However, there are still possibilities of improvement of model performance even further. We can explore other list of models as well. 
+[__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) - As shown from the plot below, the performance of the decision tree classifier is better than logistic regression and Naive Bayes. However, there are still possibilities for improvement of model performance even further. We can explore another list of models as well. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20Performance.png"/>
 
@@ -126,29 +126,29 @@ Based on the results generated from the AUC curve, there is an improvement in th
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20AUC%20Curves.png"/>
 
-[__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) - They are a group of decision trees that ensure that there is less variance during training. In our case, however, the model is not performing well on its positive predictions. This can be due to sampling approach chosen for training the models. In the later parts, we can focus our attention on other over sampling methods. 
+[__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) - They are a group of decision trees that ensure that there is less variance during training. In our case, however, the model is not performing well on its positive predictions. This can be due to the sampling approach chosen for training the models. In the later parts, we can focus our attention on other sampling methods. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/RF%20Performance.png"/>
 
-After looking at the AUC curves, it can be seen that better models and over sampling methods can be chosen to improve the auc scores. Let us now do SMOTE over sampling to determine the overall performance of ML models. 
+After looking at the AUC curves, it can be seen that better models and over-sampling methods can be chosen to improve the AUC scores. Let us now do SMOTE oversampling to determine the overall performance of ML models. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/RF%20AUC%20Curves.png"/>
 
 #### SMOTE Oversampling 
 
-[__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) - In this analysis, the same decision tree classifier was trained but with using SMOTE oversampling method. The performance of the ML model has improved significantly with this method of oversampling. We can also try a more robust model such as a random forest and determine the performance of the classifier. 
+[__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) - In this analysis, the same decision tree classifier was trained but using SMOTE oversampling method. The performance of the ML model has improved significantly with this method of oversampling. We can also try a more robust model such as a random forest and determine the performance of the classifier. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20SMOTE%20Curve.png"/>
 
-Focusing our attention on the AUC curves, there is a significant improvement in performance of the decision tree classifier. The AUC score is about 0.81 respectively. Therefore, SMOTE oversampling was useful in improving the overall performance of the classifier. 
+Focusing our attention on the AUC curves, there is a significant improvement in the performance of the decision tree classifier. The AUC score is about 0.81 respectively. Therefore, SMOTE oversampling was useful in improving the overall performance of the classifier. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20SMOTE%20AUC%20Curves.png"/>
 
-[__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) - This random forest model was trained on SMOTE oversampled data. There is a good improvement in the performance of the models. It is able to accurately predict the chances of default on a loan. There are only a few false positives. There are some false negatives but they are less as compared to a list of all the models used previously. 
+[__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) - This random forest model was trained on SMOTE oversampled data. There is a good improvement in the performance of the models. It is able to accurately predict the chances of default on a loan. There are only a few false positives. There are some false negatives but they are fewer as compared to a list of all the models used previously. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/RF%20SMOTE%20Performance.png"/>
 
-The performance of random forest classifier is exceptional as it is able to give an AUC score of about 0.95 respectively. This is depicted in the plot below. Therefore, we can deploy this model in real-time as it shows a lot of promise in predicting the chances of applicants to default on a loan. 
+The performance of the random forest classifier is exceptional as it is able to give an AUC score of about 0.95 respectively. This is depicted in the plot below. Therefore, we can deploy this model in real-time as it shows a lot of promise in predicting the chances of applicants defaulting on a loan. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/RF%20SMOTE%20AUC%20Curves.png"/>
 
