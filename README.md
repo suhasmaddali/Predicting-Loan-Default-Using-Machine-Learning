@@ -135,6 +135,10 @@ After looking at the AUC curves, it can be seen that better models and over samp
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/RF%20AUC%20Curves.png"/>
 
+<img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20SMOTE%20Curve.png"/>
+
+
+
 ## Machine Learning Models
 
 We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deals with __high-dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
