@@ -141,7 +141,11 @@ After looking at the AUC curves, it can be seen that better models and over samp
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20SMOTE%20Curve.png"/>
 
+Focusing our attention on the AUC curves, there is a significant improvement in performance of the decision tree classifier. The AUC score is about 0.81 respectively. Therefore, SMOTE oversampling was useful in improving the overall performance of the classifier. 
 
+<img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20SMOTE%20AUC%20Curves.png"/>
+
+[__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
 ## Machine Learning Models
 
