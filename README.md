@@ -137,7 +137,7 @@ After looking at the AUC curves, it can be seen that better models and over samp
 
 #### SMOTE Oversampling 
 
-[__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+[__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) - In this analysis, the same decision tree classifier was trained but with using SMOTE oversampling method. The performance of the ML model has improved significantly with this method of oversampling. We can also try a more robust model such as a random forest and determine the performance of the classifier. 
 
 <img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/DT%20SMOTE%20Curve.png"/>
 
